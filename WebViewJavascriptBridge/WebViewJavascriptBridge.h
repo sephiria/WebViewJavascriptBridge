@@ -6,6 +6,8 @@
 
 - (void)javascriptBridge:(WebViewJavascriptBridge *)bridge receivedMessage:(NSString *)message fromWebView:(UIWebView *)webView;
 
+@optional
+- (NSString *)jsToInsert;
 @end
 
 @interface WebViewJavascriptBridge : NSObject <UIWebViewDelegate>
