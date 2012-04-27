@@ -112,7 +112,8 @@ static NSString *QUEUE_HAS_MESSAGE = @"queuehasmessage";
             "readyEvent.initEvent('WebViewJavascriptBridgeReady');"
             "doc.dispatchEvent(readyEvent);"
             ""
-            "})(); %@",
+            "%@"
+            "})();",
             MESSAGE_SEPARATOR,
             CUSTOM_PROTOCOL_SCHEME,
             QUEUE_HAS_MESSAGE,
